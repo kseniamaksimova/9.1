@@ -1,4 +1,6 @@
-x = range(1,7)
-for elem in x:
-n = pow(3, elem)
-print(n)
+list=[]
+n=int(input("Ievadi skaitu: "))
+for x in range(1,2*n, 2):
+list.append(x)
+list1=sum(list)
+print(list1)       
